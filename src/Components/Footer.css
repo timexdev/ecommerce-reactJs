@@ -1,0 +1,25 @@
+.footer{
+    background-color: rgb(245, 147, 164);
+    padding: 30px 0;
+    margin-top: 100px;
+}
+.socialMedia a{
+    color: white;
+}
+.socialMedia{
+    margin-left: 475px;
+}
+hr{
+    color: white;
+}
+.copyright{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width:600px) {
+    .socialMedia{
+        margin-left: 150px;
+    }
+}

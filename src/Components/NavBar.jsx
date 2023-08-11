@@ -6,9 +6,10 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <>
-      <div className="navBar">
+      <div className="navBar fixed-top shadow">
+      <Link to="/" className="logo">TimexStore</Link>
         <div className="links">
-          <Link to="/">Shop</Link>
+          <Link to="/">Store</Link>
           <Link to="/cart">
             <ShoppingCart size={32} />
           </Link>
