@@ -1,7 +1,7 @@
 @media (min-width:600px) {
     #whyUs{
         background-color: rgb(148, 192, 243);
-        padding: 50px 250px;
+        padding: 50px 150px;
     }
     #whyUs h2{
         color: white;
@@ -16,6 +16,10 @@
     .card h6{
         font-weight: bold;
     }  
+    .iconSize{
+        height: 80px;
+        width: 80px;
+    }
 }
 
 @media (max-width:600px) {
@@ -38,5 +42,9 @@
     .card h6{
         font-weight: bold;
     }  
+    .iconSize{
+        height: 80px;
+        width: 80px;
+    }
 }
 
