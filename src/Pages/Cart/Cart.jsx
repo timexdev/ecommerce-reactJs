@@ -30,7 +30,7 @@ const navigate = useNavigate();
         <div className="checkout">
         <p className="fw-bold">Subtotal: ${totalAmount}</p>
           <button onClick={() => navigate("/")}>Continue Shopping</button>
-          <button>Checkout</button>
+          <button onClick={() => navigate("/checkout")}>Checkout</button>
         </div>
         ) : (
           <h2>Your Cart is Empty!!!</h2>
